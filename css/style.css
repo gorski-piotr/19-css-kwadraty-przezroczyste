@@ -1,0 +1,32 @@
+html {
+    background-color: #f5f5dd;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    /* background-color: black; */ /* unnecessery - color defined in squares id */
+    margin: 10px;
+}
+
+#first-square {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#second-square {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#third-square {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#fourth-square {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* another way to change transparency of squares */
+/* #first-square {
+    opacity: 0.5;
+} */
